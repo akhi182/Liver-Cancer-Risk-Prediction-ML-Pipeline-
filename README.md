@@ -1,2 +1,1 @@
-# Liver-Cancer-Risk-Prediction-ML-Pipeline-
-End-to-end ML pipeline for preprocessing, feature engineering, model training, evaluation, and tuning on clinical datasets
+This repository implements an end-to-end machine learning pipeline for liver cancer risk prediction. It includes data loading and cleaning, domain-driven feature engineering (age/BMI categories, comorbidity flag, ALT/AST/ALP-based liver function index), one-hot encoding, training and comparing multiple classifiers (Logistic Regression, Random Forest, Gradient Boosting, SVM, KNN, Naive Bayes), and visualization utilities for model comparison, confusion matrices, and feature importance. Hyperparameter tuning (GridSearchCV) refines the best models, and outputs/plots are saved for reporting and reuse.
